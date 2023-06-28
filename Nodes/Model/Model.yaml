@@ -1,0 +1,74 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: Int_Array3
+  Id: g=e266913ff1101e36232466c4da3b27fe
+  Type: BaseDataVariableType
+  DataType: Int32
+  ValueRank: OneDimension
+  ArrayDimensions: [3]
+  Value: [1,5,10]
+- Name: FarveRecipe
+  Id: g=efc32ea7af1a8b4c6deaa421c2007507
+  Type: BaseObjectType
+  Children:
+  - Name: Rød
+    Id: g=6c6f734f7bd89193446af4c4487f0bbc
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Red"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Blå
+    Id: g=d8b6867b50e0951d4a9006553011718e
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Blue"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Grøn
+    Id: g=4ec3a700ef2bb0475987adcd0f38427f
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Green"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Gul
+    Id: g=4e47c739ce33b98b9689eac3c83255bd
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/Yellow"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2

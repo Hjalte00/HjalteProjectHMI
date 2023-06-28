@@ -1,0 +1,100 @@
+Name: Recipes
+Type: RecipesCategoryFolder
+Children:
+- Name: HjaltesOpskrifter!
+  Id: g=b607b1a4c3eb89ce189644b285ea0116
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+    Children:
+    - Name: Rød
+      Type: BaseDataVariableType
+      DataType: Int16
+      Value: 0
+    - Name: Blå
+      Type: BaseDataVariableType
+      DataType: Int16
+      Value: 0
+    - Name: Grøn
+      Type: BaseDataVariableType
+      DataType: Int16
+      Value: 0
+    - Name: Gul
+      Type: BaseDataVariableType
+      DataType: Int16
+      Value: 0
+  - Class: Reference
+    Target: ns=29;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=76
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=60
+    Direction: Forward
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"48eed31b5996400c6bb01d05ce30ff8c","Namespace":7}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":1,"Namespace":9}
+  - Name: TargetNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"efc32ea7af1a8b4c6deaa421c2007507","Namespace":7}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: EditModel
+    Id: g=7fd66113e48ea2cd66dcfcec5714c7e2
+    Type: BaseObjectType
+    Children:
+    - Name: Rød
+      Type: BaseDataVariableType
+      DataType: Int16
+      Value: 0
+    - Name: Blå
+      Type: BaseDataVariableType
+      DataType: Int16
+      Value: 0
+    - Name: Grøn
+      Type: BaseDataVariableType
+      DataType: Int16
+      Value: 0
+    - Name: Gul
+      Type: BaseDataVariableType
+      DataType: Int16
+      Value: 0
